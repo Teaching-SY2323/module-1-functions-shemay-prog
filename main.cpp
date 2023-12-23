@@ -18,10 +18,14 @@ int main()
 
     cout << Add2Values(x, y)
 
-    return 0;
+    return x,y;
 }
 
 int Add2Values(int x, int y)
 {
-    // make your code here
+    int sum;
+
+    sum = x + y;
+
+    return sum;
 }
